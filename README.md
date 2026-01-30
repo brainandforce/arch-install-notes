@@ -78,6 +78,14 @@ LC_TIME=C.UTF-8
 
 ## User accounts
 
+### Skeleton files
+
+You probably want to set up default config files for any new users in `/etc/skel/`.
+
+Grab my custom config files [here](https://github.com/brainandforce/my-configs), but it'll be a bit of work to install them since they're not hidden and need to be renamed.
+
+### User creation
+
 By default, `useradd` does not create a home directory for a new user unless the `-m` flag is provided.
 This can be changed by adding the following line to `/etc/login.defs`:
 ```

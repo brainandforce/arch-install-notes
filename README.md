@@ -170,3 +170,7 @@ There is also `discord_arch_electron` which uses a system Electron implementatio
 You also want to install `libunity` to get the notification icon to show up in the taskbar, even though it is not listed as an optional dependency.
 `libappindicator` is also recommended to get the system tray icon to work.
 
+## Fonts
+
+`ttf-courier-prime` is a really good Courier.
+

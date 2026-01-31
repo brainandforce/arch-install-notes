@@ -149,7 +149,7 @@ breeze-gtk                              # KDE Breeze theme for GTK applications
 For web browsing, I like [IBM Plex](https://ibm.com/plex) (`ttf-ibm-plex`) as the default serif, sans serif, and monospace as an alternative to Arial/Times/Courier.
 They are very consistent across a single page, as evidenced by https://ultimatemotherfuckingwebsite.com/.
 
-## Greeter
+## Greeter/display manager
 
 The recommended greeter for KDE is SDDM, and it's pretty easy to integrate with other desktop environments as well.
 You definitely want to get `sddm-kcm` if you want to configure it within the KDE System Settings.
@@ -159,6 +159,9 @@ Note that the settings for the SDDM greeter and your personal lock screen are in
 The SDDM wallpaper choice is global, and the lock screen wallpaper is only seen when you lock your session.
 
 **TODO: figure out how to make the clock font thinner in the Breeze SDDM theme!**
+
+KDE is also offering a new display manager, Plasma Login Manager.
+Currently it's still in beta, but can be installed from the AUR (`plasma-login-manager-git`).
 
 # Extras
 

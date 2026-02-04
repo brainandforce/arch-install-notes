@@ -130,6 +130,7 @@ If you want the full-featured system ready to go, just install `plasma-meta`; ot
 ```
 plasma-pa                               # PulseAudio integration and soundd widget; kmix is deprecated 
 networkmanager-qt                       # support for NetworkManager
+plasma-systemmonitor                    # task manager, accessible with Meta+Esc
 firefox                                 # or your browser of choice
 konsole                                 # or some other terminal emulator
 dolphin                                 # or some other file manager
@@ -138,6 +139,7 @@ ark                                     # or some other archive manager
 khelpcenter                             # help files
 gwenview                                # for image viewing, but a browser can also handle that
 powerdevil                              # control monitor brightness
+kdeconnect                              # connect to a phone (download the KDE Connect app on it)
 kwalletmanager                          # disable wallet popups
 breeze-gtk                              # KDE Breeze theme for GTK applications
 ```
@@ -176,4 +178,17 @@ You also want to install `libunity` to get the notification icon to show up in t
 ## Fonts
 
 `ttf-courier-prime` is a really good Courier.
+
+## Visual Studio Code
+
+There are a few package available that provide a build of VS Code:
+```
+extra/code                              # Arch Linux build
+aur/visual-studio-code-bin              # Official Microsoft build
+```
+Microsoft's release version is actually *not* free software, despite the source being under an MIT license.
+They also restrict the use of their extension store to their builds, and the open-source releases do not enable an extension store by default.
+It is possible to use the [VSX]
+
+Note that some extensions to 
 
